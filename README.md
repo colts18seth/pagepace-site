@@ -1,31 +1,24 @@
 # PagePace site
 
-Public support + privacy pages for the App Store.
+Public web pages for **PagePace**, a reading-pace planner app for iPhone.
 
-## Setup
+PagePace helps you set a book goal, keep a reading queue, log progress, and stay on pace toward a deadline. Reading data stays on your device — there is no account system and no PagePace cloud backend. Optional book search uses the public [Open Library](https://openlibrary.org/) catalog.
 
-1. Replace `REPLACE_WITH_YOUR_EMAIL` in `index.html` and `privacy.html`.
-2. Create a **public** GitHub repo (e.g. `pagepace-site`).
-3. Push this folder to `main`:
+This repository hosts the small public site used for App Store support and privacy links (and anywhere else a stable URL is needed).
 
-```bash
-cd ~/Developer/pagepace-site
-git init
-git add .
-git commit -m "Add PagePace privacy and support pages"
-git branch -M main
-git remote add origin https://github.com/YOUR_USER/pagepace-site.git
-git push -u origin main
-```
+## What’s here
 
-4. GitHub → **Settings → Pages**
-   - Source: **Deploy from a branch**
-   - Branch: **main** / folder: **/ (root)**
-   - Save
+- `index.html` — support / landing page
+- `privacy.html` — privacy policy
+- `styles.css` — shared styles
 
-## App Store Connect URLs
+## Live URLs
 
-After Pages is live (usually 1–2 minutes):
+Once GitHub Pages is enabled on this repo:
 
-- Support: `https://YOUR_USER.github.io/pagepace-site/`
-- Privacy: `https://YOUR_USER.github.io/pagepace-site/privacy.html`
+- Support: https://colts18seth.github.io/pagepace-site/
+- Privacy Policy: https://colts18seth.github.io/pagepace-site/privacy.html
+
+## Contact
+
+lafolletteproductsllc@gmail.com
