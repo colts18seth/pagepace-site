@@ -1,0 +1,105 @@
+:root {
+  color-scheme: light dark;
+  --bg: #0a0a0f;
+  --text: #f3f4ed;
+  --muted: #9ca3af;
+  --accent: #14b8a6;
+  --border: rgba(255, 255, 255, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.55;
+}
+
+a {
+  color: var(--accent);
+}
+
+.page {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 3rem 1.25rem 4rem;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin: 0 0 0.75rem;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 650;
+  margin: 0 0 1rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin: 2rem 0 0.75rem;
+}
+
+h3 {
+  font-size: 1rem;
+  margin: 1.25rem 0 0.5rem;
+}
+
+.lead {
+  font-size: 1.05rem;
+  color: var(--muted);
+  margin: 0 0 1.5rem;
+}
+
+.meta,
+.fine {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.links {
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.75rem;
+  margin: 0 0 2rem;
+}
+
+.links a {
+  display: block;
+  border: 1px solid var(--border);
+  border-radius: 0.65rem;
+  padding: 0.9rem 1rem;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.links a:hover {
+  border-color: var(--accent);
+}
+
+.prose p,
+.prose ul {
+  color: #d6d3d1;
+}
+
+.prose ul {
+  padding-left: 1.2rem;
+}
+
+.prose li {
+  margin: 0.35rem 0;
+}
+
+code {
+  font-size: 0.9em;
+}
