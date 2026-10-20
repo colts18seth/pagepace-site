@@ -1,8 +1,8 @@
-# PagePace site
+# Title Count site
 
-Public web pages for **PagePace**, a reading-pace planner app for iPhone.
+Public web pages for **Title Count**, a reading-pace planner app for iPhone.
 
-PagePace helps you set a book goal, keep a reading queue, log progress, and stay on pace toward a deadline. Reading data stays on your device — there is no account system and no PagePace cloud backend. Optional book search uses the public [Open Library](https://openlibrary.org/) catalog.
+Title Count helps you set a book goal, keep a reading queue, log progress, and stay on pace toward a deadline. Reading data stays on your device — there is no account system and no Title Count cloud backend. Optional book search uses the public [Open Library](https://openlibrary.org/) catalog.
 
 This repository hosts the small public site used for App Store support and privacy links (and anywhere else a stable URL is needed).
 
