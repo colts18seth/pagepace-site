@@ -6,6 +6,6 @@ Title Count helps you set a book goal, keep a reading queue, log progress, and s
 
 ## Links
 
-- Site: https://colts18seth.github.io/pagepace-site/
-- Privacy Policy: https://colts18seth.github.io/pagepace-site/privacy.html
+- Site: https://colts18seth.github.io/titlecount-site/
+- Privacy Policy: https://colts18seth.github.io/titlecount-site/privacy.html
 - Contact: lafolletteproductsllc@gmail.com
